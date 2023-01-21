@@ -1,0 +1,15 @@
+{
+  "name": "hyperswitch-html-demo-app",
+  "version": "1.0.0",
+  "description": "A sample Hyperswitch implementation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "hyperswitch-samples",
+  "license": "ISC",
+  "dependencies": {
+    "@juspay-tech/hyper-node": "^0.0.1",
+    "express": "^4.17.1"
+  }
+}
