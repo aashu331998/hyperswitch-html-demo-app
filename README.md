@@ -19,8 +19,10 @@ const hyper = require("@juspay-tech/hyper-node")("api_key");
 
 ```
 //in checkout.js
-const hyper = StripeInstance("publishable_key");
+const hyper = Hyper("publishable_key");
 ```
+
+> Note: Please ensure that you have enabled the 'Handle card information directly' option under the Settings > Integration section of your Stripe dashboard to allow hyperswitch to securely process your customers' card details
 
 3. Run the server
 

@@ -1,5 +1,5 @@
 // use your hyperswitch publishable key here
-const hyper = StripeInstance("publishable_key");
+const hyper = Hyper("publishable_key");
 
 const items = [{ product_id: "A113" }];
 
