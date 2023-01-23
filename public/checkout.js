@@ -1,5 +1,5 @@
-// use your hyperswitch publishable key here
-const hyper = Hyper("publishable_key");
+// replace the test publishable key with your hyperswitch publishable key
+const hyper = Hyper("pk_snd_1e5425f5dea94ee793cf34ea326294d8");
 
 const items = [{ product_id: "A113" }];
 

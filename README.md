@@ -10,7 +10,7 @@ A simple app to demo html integration of Hyperswitch
 npm install or yarn
 ```
 
-2. Provide valid Api key in server.js and Publishable key in checkout.js. You can create your keys using the Hyperswitch dashboard.
+2. Provide valid Api key in server.js and Publishable key in checkout.js. You can create your keys using the Hyperswitch dashboard. https://app.hyperswitch.io/
 
 ```
 //in server.js

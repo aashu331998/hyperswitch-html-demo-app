@@ -1,8 +1,10 @@
 const express = require("express");
 const app = express();
 
-//use your hyperswitch api key here
-const hyper = require("@juspay-tech/hyper-node")("api_key");
+// replace the test api key with your api publishable key
+const hyper = require("@juspay-tech/hyper-node")(
+  "snd_9d552d20e1f0411e8c9c45193cdc0677"
+);
 
 app.use(express.static("public"));
 app.use(express.json());
