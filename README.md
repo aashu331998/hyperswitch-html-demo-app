@@ -14,7 +14,7 @@ npm install or yarn
 
 ```
 //in server.js
-const hyper = require("@juspay-tech/hyper-node")("api_key");
+const hyper = require("@juspay-tech/hyperswitch-node")("api_key");
 ```
 
 ```

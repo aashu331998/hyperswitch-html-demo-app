@@ -9,7 +9,7 @@
   "author": "hyperswitch-samples",
   "license": "ISC",
   "dependencies": {
-    "@juspay-tech/hyper-node": "^1.0.0",
+    "@juspay-tech/hyperswitch-node": "^1.0.1",
     "express": "^4.17.1"
   }
 }
